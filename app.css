@@ -3,6 +3,8 @@ h1  {
     font-weight: 900;
     text-decoration: green underline wavy;
     letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 p{
