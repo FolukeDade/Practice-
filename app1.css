@@ -37,3 +37,12 @@ span {
 footer a {
     color: #e76f51;
 }
+
+h2 + button {
+    font-size:15px;
+    background-color: gray;
+}
+
+footer > a {
+      color: #006d77;
+}
