@@ -32,6 +32,8 @@ span {
 
 .post a {
     color: #6d6875
+    font-weight 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -45,4 +47,29 @@ h2 + button {
 
 footer > a {
       color: #006d77;
+}
+
+.post button:hover{
+    background-color: #e63946;
+    color: white;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #ff8a5b;
+}
+
+h2::first-letter {
+    font-size: 50px;
+} 
+
+p::first-line {
+    color:red;
+}
+
+p::selection {
+    background-color: yellowgreen;
 }
