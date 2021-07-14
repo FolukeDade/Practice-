@@ -73,3 +73,8 @@ p::first-line {
 p::selection {
     background-color: yellowgreen;
 }
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
